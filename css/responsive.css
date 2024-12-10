@@ -2,6 +2,8 @@
 
 /* Mobile first*/
 
+/* Tablet */
+
 @media screen and (min-width: 768px) {
   #topbar {
     height: 70px;
@@ -75,5 +77,56 @@
     margin-bottom: 10px;
     box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
     float: left;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px) {
+  .recipe-name {
+    font-size: 2.5rem;
+  }
+
+  .badge {
+    font-size: 1rem;
+  }
+
+  .info {
+    font-size: 1.5rem;
+  }
+
+  .quick-notes li {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    list-style-type: none;
+  }
+
+  .presentation p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  address {
+    font-style: normal;
+    line-height: 2rem;
+    strong {
+      font-size: 0.9rem;
+    }
+  }
+  footer {
+    nav {
+      ul {
+        li {
+          width: auto;
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }
