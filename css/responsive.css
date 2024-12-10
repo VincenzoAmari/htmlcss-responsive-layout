@@ -1,1 +1,52 @@
 /* Soluzione qui */
+
+/* Mobile first*/
+
+@media screen and (min-width: 768px) {
+  #topbar {
+    height: 70px;
+    padding: 0 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  main {
+    background-color: #f6f5f3;
+    padding: 50px;
+    min-height: calc(100vh - 70px);
+  }
+  .recipe-origin {
+    display: inline;
+  }
+  .recipe-name {
+    color: #4e3969;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .quick-notes {
+    display: flex;
+  }
+
+  .btn {
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    width: calc(25%);
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #fff;
+  }
+
+  .ads img {
+    padding-top: 30px;
+    max-width: 100%;
+  }
+
+  .ads {
+    display: inline;
+    margin: 30px auto;
+  }
+}
