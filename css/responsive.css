@@ -78,6 +78,22 @@
     box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
     float: left;
   }
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  footer {
+    nav {
+      ul {
+        li {
+          width: auto;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
 }
 
 /* Desktop */
