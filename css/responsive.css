@@ -16,24 +16,43 @@
     padding: 50px;
     min-height: calc(100vh - 70px);
   }
+
+  .recipe-rating {
+    width: 15%;
+    min-width: 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .recipe-rating .btn {
+    width: auto;
+    background-color: #f7972e;
+  }
+
   .recipe-origin {
     display: inline;
   }
   .recipe-name {
     color: #4e3969;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
-  .quick-notes {
+  ul {
     display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 33%;
+    }
   }
 
   .btn {
     border: 0;
     font-size: 14px;
     font-weight: bold;
-    width: calc(25%);
+    width: 25%;
     border-radius: 20px;
     cursor: pointer;
     text-transform: uppercase;
@@ -48,5 +67,13 @@
   .ads {
     display: inline;
     margin: 30px auto;
+  }
+  .presentation img {
+    max-width: 300px;
+    display: block;
+    margin: 0 10px 20px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px rgb(45 34 60 / 12%);
+    float: left;
   }
 }
